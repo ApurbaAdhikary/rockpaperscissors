@@ -41,7 +41,7 @@ if (playerSelection === "scissors"){
 }
 }
 
-const playerSelection = window.prompt("Rock, Paper or scissors ?").toLowerCase();
+// const playerSelection = window.prompt("Rock, Paper or scissors ?").toLowerCase();
 const computerSelection = computerPlay();
 console.log(playRound(playerSelection, computerSelection))
 document.write("<h1>Refresh to play again</h1>")
